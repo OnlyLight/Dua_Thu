@@ -1,0 +1,88 @@
+.img-custom {
+    width: 100%;
+    float: left;
+    padding: 0 2px;
+}
+
+.title-nav {
+    font-size: 2rem;
+    color: #9d9d9d;
+}
+
+.title-nav:hover {
+    text-decoration: none;
+    color:#fff;
+    background-color:transparent;
+}
+
+.product-item {
+    border: none;
+}
+
+.product-item img {
+    margin-top: 14px;
+}
+
+.product-info {
+    width: 47%;
+    border: 2px solid gray;
+    margin-left: 12px;
+    margin-bottom: 2%;
+}
+
+.adv-info {
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.adv-item {
+    width: 80%;
+    border: none;
+    padding-left: 23%;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+}
+
+.paragrap, input {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ul li a, .navbar-brand {
+    font-family: 'Oswald', sans-serif;
+}
+
+.paragrap a {
+    text-decoration: none!important;
+}
+
+.pagination>li>a {
+    color: gray;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.tab-content {
+    margin-top: 3%;
+}
+
+.btn-custom {
+    margin-top: 3%;
+    margin-left: 54%;
+}
+
+.video-flower {
+    margin-top: 6%;
+}
+
+.info-contact {
+    font-weight: bold;
+}
+
+.address {
+    font-size: 18px;
+}
