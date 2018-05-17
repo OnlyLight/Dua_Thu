@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>final-exam</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/final-exam.css">
+</head>
+<body>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="jquery/jquery-3.2.1.min.js"></script>
+<script src="jquery/final-exam.js"></script>
+
+    <div class="banner">
+        <div class="container visible-lg" id=" banner-header">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <img id="banner-img" src="images/banner-sm.jpg" alt="banner">
+                </div>
+
+                <div class="col-lg-8 col-md-8 banner-info">
+                    <p id="banner-system">HỆ THỐNG ĐÀO TẠO LẬP TRÌNH VIÊN QUỐC TẾ</p>
+                    <p class="banner-contract">A: 38 Yên Bái, Quận Hải Châu, Thành phố Đà Nẵng</p>
+                    <button class="b"></button>
+                    <p class="banner-contract">T: 0236.3.779.779 | F: 0236.3.779.555 | W: aptech-danang.edu.vn | E: tuyensinh@softech.vn</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container visible-xs visible-sm visible-md">
+            <div class="row">
+                <div class="container visible-xm visible-xs">
+                    <img class="img-responsive center-block" id="banner-img-re" src="images/banner-sm.jpg" alt="banner">
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-default" id="navi">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" href="/">HOTLINE: 3.779.779</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">TRANG CHỦ</a></li>
+                        <li><a href="#">TIN TỨC, SỰ KIỆN</a></li>
+                        <li><a href="#">CHƯƠNG TRÌNH HỌC</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                                KHÓA HỌC HÈ 2017 <b class="caret"></b></a>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">ROBOT CƠ BẢN</a></li>
+                                <li><a href="#">ROBOT NÂNG CAO</a></li>
+                                <li><a href="#">PASCAL</a></li>
+                                <li><a href="#">PHÁT TRIỂN GAME 2D</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">TUYỂN SINH 2017</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            GÓC HỌC VIÊN <b class="caret"></b></a>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">TUYỂN DỤNG</a></li>
+                                <li><a href="#">CỰU HỌC VIÊN</a></li>
+                                <li><a href="#">CAM KẾT VIỆC LÀM</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">EBOOKS</a></li>
+                        <li><a href="#">LIÊN HỆ</a></li>
+                        <li><a href="#">GIỚI THIỆU</a></li>
+                        <li><a href="#">ĐĂNG NHẬP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="div-body">
+        <div class="container" id="body-aptech">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <div class="thumbnail" id="near-form">
+                        <a href="#"><img src="images/22_2.jpg" alt="Hinh"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-4 col-xs-12">
+                    <div class="thumbnail">
+                        <div class="form-header">
+                            <h4>
+                                ĐĂNG KÝ TUYỂN SINH
+                            </h4>
+                        </div>
+
+                        <form>
+                            <div class="form-group">
+                                <input id="contractName" data-rule-required="true" data-msg-required="Chưa nhập họ và tên" type="text" class="form-control" placeholder="Họ và tên" aria-required="true">
+                                <span class="field-validation-valid text-danger" data-valmsg-for="ContactName" data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="form-group">
+                                <input id="contractPhone" data-rule-required="true" data-msg-required="Chưa nhập số điện thoại liên lạc" type="number" class="form-control" placeholder="Điện thoại liên lạc" aria-required="true">
+                                <span class="field-validation-valid text-danger" data-valmsg-for="ContactTelephone" data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="form-group">
+                                <input id="contractEmail" data-rule-required="true" data-msg-required="Chưa nhập email"type="email" class="form-control" placeholder="Địa chỉ email" aria-required="true">
+                                <span class="field-validation-valid text-danger" data-valmsg-for="ContactEmail" data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control"name="Message" placeholder="Lời nhắn của bạn" type="text" value="">
+                            </div>
+                            <div class="form-group">
+                                <button id="btnRegisterSubmit" type="submit" class="btn btn-lg btn-danger" onclick="return dangKy()">Đăng ký khóa học</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                    <div class="div-ct-hoc">
+                        <h4>
+                            CHƯƠNG TRÌNH HỌC
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 div-hoc-tap">
+                    <div class="thumbnail div-hk1">
+                        <a href="#"><img src="images/1-1.jpg" alt="hoc-ky-1"></a>
+                    </div>
+
+                    <div class="div-ct-hk1">
+                        <h4>HỌC KỲ I</h4>
+                    </div>
+
+                    <div class="sub-text">
+                        <h5>C LANGUAGE, HTML5, CSS3, JAVASCRIPT</h5>
+                        <p>Xây dựng và phát triển website doanh nghiệp, website thương mại điện tử; tự phân tích, chuẩn hóa và quản trị cơ sở dữ liệu trên nền SQL Server,…</p>
+                    </div>
+
+                    <div class="btn-see">
+                        <div class="btn btn-danger">
+                            Xem chi tiết
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 div-hoc-tap">
+                    <div class="thumbnail div-hk1">
+                        <a href="#"><img src="images/hoc-ky-2.jpg" alt="hoc-ky-2"></a>
+                    </div>
+
+                    <div class="div-ct-hk1">
+                        <h4>HỌC KỲ I</h4>
+                    </div>
+
+                    <div class="sub-text">
+                        <h5>C LANGUAGE, HTML5, CSS3, JAVASCRIPT</h5>
+                        <p>Xây dựng và phát triển website doanh nghiệp, website thương mại điện tử; tự phân tích, chuẩn hóa và quản trị cơ sở dữ liệu trên nền SQL Server,…</p>
+                    </div>
+
+                    <div class="btn-see">
+                        <div class="btn btn-danger">
+                            Xem chi tiết
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 div-hoc-tap">
+                    <div class="thumbnail div-hk1">
+                        <a href="#"><img src="images/hoc-ky-3.jpg" alt="hoc-ky-3"></a>
+                    </div>
+
+                    <div class="div-ct-hk1">
+                        <h4>HỌC KỲ I</h4>
+                    </div>
+
+                    <div class="sub-text">
+                        <h5>C LANGUAGE, HTML5, CSS3, JAVASCRIPT</h5>
+                        <p>Xây dựng và phát triển website doanh nghiệp, website thương mại điện tử; tự phân tích, chuẩn hóa và quản trị cơ sở dữ liệu trên nền SQL Server,…</p>
+                    </div>
+
+                    <div class="btn-see">
+                        <div class="btn btn-danger">
+                            Xem chi tiết
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 div-hoc-tap">
+                    <div class="thumbnail div-hk1">
+                        <a href="#"><img src="images/hoc-ky-4.jpg" alt="hoc-ky-4"></a>
+                    </div>
+
+                    <div class="div-ct-hk1">
+                        <h4>HỌC KỲ I</h4>
+                    </div>
+
+                    <div class="sub-text">
+                        <h5>C LANGUAGE, HTML5, CSS3, JAVASCRIPT</h5>
+                        <p>Xây dựng và phát triển website doanh nghiệp, website thương mại điện tử; tự phân tích, chuẩn hóa và quản trị cơ sở dữ liệu trên nền SQL Server,…</p>
+                    </div>
+
+                    <div class="btn-see">
+                        <div class="btn btn-danger">
+                            Xem chi tiết
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 hidden-xs">
+                        <table class="footer-table">
+                            <tr>
+                                <td>
+                                    <img alt="danh hiệu sao khuê" src="images/saokhue.png">
+                                </td>
+                                <td id="td-2">
+                                    <div>
+                                        <h4>
+                                            03 NĂM LIỀN ĐẠT DANH HIỆU SAO KHUÊ 2015 - 2016 - 2017
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        Dịch vụ đào tạo CNTT tiêu biểu và ưu việt.
+                                    </div>
+                                    <div>
+                                        Danh hiệu Sao Khuê thuộc Hiệp hội Phần mềm và Dịch vụ CNTT Việt Nam (VINASA).
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div>
+                            <div class="footer-contract">
+                                <h4>
+                                    HỆ THỐNG ĐÀO TẠO CNTT QUỐC TẾ SOFTECH APTECH
+                                </h4>
+                            </div>
+                            <div class="footer-contract">
+                                Địa chỉ: Tòa nhà VNPT, 38 Yên Bái, Quận Hải Châu, Thành Phố Đà Nẵng
+                            </div>
+                            <div class="footer-contract">
+                                Điện thoại: 0236.3.779.779 - Fax: 0236.3.779.555
+                            </div>
+                            <div class="footer-contract">
+                                Email: <a style="color: #ffffff" href="mailto:tuyensinh@softech.vn?subject=Lien he Softech Arena - Đà Nẵng" title="Liên hệ Softech Aptech">tuyensinh@softech.vn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="after-footer">
+            <div class="container">
+                <div class="pull-left">
+                    <a href="#">Softech Corporation</a>
+                    © 2001 - 2017 | All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    function dangKy() {
+        var name = document.getElementById("contractName").value;
+        var phone = document.getElementById("contractPhone").value;
+        var email = document.getElementById("contractEmail").value;
+
+        if (name != "" && phone != "" && email != "") {
+            alert("cam on !");
+        } else {
+            alert("Xin nhap day dau !");
+        }
+    }
+</script>
+</body>
+</html>

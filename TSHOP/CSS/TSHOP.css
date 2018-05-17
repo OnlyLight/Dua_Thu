@@ -1,0 +1,299 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-default {
+    background-color: #4bb877;
+    border: none;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #27ae61;
+    color: white;
+}
+
+#navi-1 {
+    background-color: #4bb877;
+    min-height: 20px;
+    height: 30px;
+    margin-bottom: 0;
+}
+
+#navi-1 .navbar-collapse {
+    border-color: #e7e7e7;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+#navi-2 {
+    margin-top: -12px;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #27ae61;
+    color: white;
+}
+
+.breadcrumb {
+    margin: 20px 0;
+    color: black;
+}
+
+.breadcrumb li a {
+    color: black;
+}
+
+.category {
+    border-top: 4px solid #4ec67f;
+    border-left: 2px solid #e3e3e3;
+    border-right: 2px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
+    margin-bottom: 4px;
+    padding-bottom: 8px;
+}
+
+.head {
+    padding: 10px;
+    background-color: #edeef0;
+    font-size: 20px;
+}
+
+.show-head-1 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.show-women {
+    margin-top: 10px;
+    margin-left: 16px;
+    line-height: 38px;
+    padding: 0 22px;
+    display: none;
+    border-left: 1px solid gray;
+}
+
+.show-women > a {
+    text-decoration: none;
+    color: black;
+}
+
+.badge {
+    margin-right: 10px;
+}
+
+.badge-price {
+    background-color: red;
+    color: white;
+    float: right;
+    margin-top: 7px;
+}
+
+.choose-price {
+    margin-top: 20px;
+    margin-left: 15px;
+    line-height: 34px;
+}
+
+label {
+    font-weight: normal;
+}
+
+.check-price {
+    margin-left: 15px;
+}
+
+.check-price > input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    padding: 2%;
+    border-radius: 4px;
+}
+
+.btn {
+    margin-left: 15px;
+}
+
+.btn-default {
+    background-color: #bec3c7;
+    color: white;
+}
+
+#myCarousel {
+    margin-bottom: 30px;
+}
+
+.thumbnail  img {
+    height: 135px;
+}
+
+.thumbnail p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.my-thumbnail img {
+    height: 220px;
+}
+
+.thumbnail {
+    text-align: center;
+    position: relative;
+}
+
+.my-item {
+    width: 100%;
+    height: 300px;
+}
+
+.discount {
+    display: inline;
+    position: absolute;
+    left: -6%;
+    top: 35%;
+}
+
+.my-btn-success {
+    width: 83px;
+}
+
+.btn-danger {
+    margin-left: -4px;
+}
+
+#my-btn-danger {
+    margin-left: 15px;
+}
+
+.check-brand {
+    margin-left: 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: white;
+    height: auto;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #DDDDDD;
+}
+
+.introduce {
+    color: #54697e;
+    font-weight: bold;
+}
+
+.opacity {
+    opacity: 0.6;
+    color: black;
+}
+
+.opacity a {
+    text-decoration: none;
+    color: black;
+}
+
+#subscribe {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.social ul {
+    list-style-type: none;
+    font-size: 13px;
+    margin-top: 15px;
+    padding-left: 0;
+    color: #7F8C8D;
+}
+
+.social ul li {
+    display: inline-block;
+    background: none repeat scroll 0 0 #B5B5B5;
+    border: 2px solid #B5B5B5;
+    border-radius: 50%;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.8s ease 0s;
+}
+
+.social ul li:hover {
+    border: 2px solid #2c3e50;
+    background: #2c3e50;
+    transform: scale(1.15) rotate(360deg);
+}
+
+#facebook:hover {
+    border: 2px solid #46629e;
+    background: #47639d;
+    transform: scale(1.15) rotate(360deg);
+}
+
+#gg:hover {
+    border: 2px solid #dc4c41;
+    background: #dc4c41;
+    transform: scale(1.15) rotate(360deg);
+}
+
+#twitter:hover {
+    border: 2px solid #32cdfd;
+    background: #32cdfd;
+}
+
+#youtube:hover {
+    border: 2px solid #ee1c1b;
+    background: #ee1c1b;
+}
+
+.social ul li a {
+    color: #78828d;
+    padding: 0 0 5px 0;
+    display: block;
+}
+
+.social ul li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
+}
+
+.footer-bottom {
+    background: white;
+    border-top: 2px solid #DDDDDD;
+    padding: 5px 20px 5px 20px;
+    height: 60px;
+}
+
+.footer-bottom p {
+    margin-top: 10px;
+}
+
+.footer .div-img {
+    width: 40%;
+    margin-top: 10px;
+}
+
+.footer-bottom img{
+    width: 100%;
+}
