@@ -1,0 +1,33 @@
+package tqduy.musicstore.controller;
+
+import org.hibernate.query.Query;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import tqduy.musicstore.entity.Product;
+import tqduy.musicstore.utils.HiberneteUtils;
+
+public class DatabaseController {
+	public static void main(String[] args) {
+		SessionFactory factory = HiberneteUtils.getSessionFactory();
+		
+		Session session = factory.getCurrentSession();
+		
+		session.getTransaction().begin();
+		
+		String sql = "Select p from "+Product.class.getName()+" p ";
+		
+		Query<Product> query = session.createQuery(sql);
+		
+		List<Product> products = query.getResultList();
+		
+		for (Product product : products) {
+			System.out.println("UserName: " + product.getUserName() + " - PassWord: " + product.getPassWord());
+		}
+		
+		session.getTransaction().commit();
+	}
+}

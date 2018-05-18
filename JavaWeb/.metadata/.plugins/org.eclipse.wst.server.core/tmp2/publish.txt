@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Sun May 13 23:57:17 ICT 2018
+org.eclipse.jst.jee.server\:MusicStore=E\:\\Downloads\\Zip\\apache-tomcat-8.5.29\\wtpwebapps\\MusicStore
+org.eclipse.jst.jee.server\:BookStore=E\:\\Downloads\\Zip\\apache-tomcat-8.5.29\\wtpwebapps\\BookStore
+org.eclipse.jst.jee.server\:FlowerShop=E\:\\Downloads\\Zip\\apache-tomcat-8.5.29\\wtpwebapps\\FlowerShop

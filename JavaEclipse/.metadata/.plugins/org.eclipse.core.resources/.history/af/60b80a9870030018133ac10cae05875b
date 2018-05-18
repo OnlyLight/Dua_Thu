@@ -1,0 +1,7 @@
+package bai7_2;
+
+import bai4_4.Point;
+
+public class PolyLine extends Point {
+
+}

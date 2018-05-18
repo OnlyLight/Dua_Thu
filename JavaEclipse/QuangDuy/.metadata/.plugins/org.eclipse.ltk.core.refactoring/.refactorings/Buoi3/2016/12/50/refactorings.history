@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Buoi3.TextBuoi3&apos; to &apos;HinhChuNhat&apos;&#x0D;&#x0A;- Original project: &apos;Buoi3&apos;&#x0D;&#x0A;- Original element: &apos;Buoi3.TextBuoi3&apos;&#x0D;&#x0A;- Renamed element: &apos;Buoi3.HinhChuNhat&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TextBuoi3&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Buoi3{TextBuoi3.java[TextBuoi3" matchStrategy="1" name="HinhChuNhat" qualified="false" references="true" similarDeclarations="false" stamp="1481289473889" textual="false" version="1.0"/>
+</session>

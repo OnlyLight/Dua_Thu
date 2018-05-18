@@ -1,0 +1,15 @@
+package tqduy.musicstore.controller;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class DatabaseController {
+	private SessionFactory session;
+	
+	@Autowired
+	public void setDataSource(SessionFactory sessionFactory) {
+		this.session = sessionFactory;
+	}
+}

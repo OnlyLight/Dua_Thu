@@ -1,0 +1,89 @@
+
+Mar 24, 2018 10:50:51.32 NEW SESSION
+Mar 24, 2018 10:50:51.32 [6284:6640:0324/105051.324:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 24, 2018 10:50:51.44 [6284:6640:0324/105051.448:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 24, 2018 10:50:51.60 [6284:6640:0324/105051.606:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 24, 2018 10:50:52.13 [6284:6640:0324/105052.135:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+
+Mar 30, 2018 07:26:29.54 NEW SESSION
+Mar 30, 2018 07:26:29.54 [5440:5896:0330/072629.231:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Mar 30, 2018 07:28:20.45 [1364:7728:0330/072820.453:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Mar 30, 2018 07:31:26.45 [1364:4020:0330/073126.457:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 07:31:26.68 [1364:4020:0330/073126.679:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 07:31:26.85 [1364:4020:0330/073126.855:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 07:31:27.44 [1364:4020:0330/073127.449:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 07:34:12.03 [1364:4020:0330/073412.034:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 07:34:12.08 [1364:4020:0330/073412.089:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 07:34:12.21 [1364:4020:0330/073412.210:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 07:34:12.53 [1364:4020:0330/073412.536:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 07:41:27.91 [1364:4020:0330/074127.916:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 07:41:27.96 [1364:4020:0330/074127.968:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 07:41:28.07 [1364:4020:0330/074128.069:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 07:41:28.41 [1364:4020:0330/074128.411:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 08:05:35.51 [1364:4020:0330/080535.510:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 08:05:35.57 [1364:4020:0330/080535.576:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 08:05:35.71 [1364:4020:0330/080535.713:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 08:05:36.04 [1364:4020:0330/080536.048:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 08:26:05.36 [1364:4020:0330/082605.362:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 08:26:05.41 [1364:4020:0330/082605.416:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 08:26:05.87 [1364:4020:0330/082605.876:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 08:26:06.22 [1364:4020:0330/082606.227:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+Mar 30, 2018 09:10:29.94 [1364:4020:0330/091029.940:ERROR:connection_factory_impl.cc(379)] Failed to connect to MCS endpoint with error -106
+Mar 30, 2018 09:11:48.04 [1364:4020:0330/091148.049:ERROR:ssl_client_socket_impl.cc(1147)] handshake failed; returned -1, SSL error code 1, net_error -100
+Mar 30, 2018 09:11:49.64 [1364:4020:0330/091149.648:ERROR:ssl_client_socket_impl.cc(1147)] handshake failed; returned -1, SSL error code 1, net_error -100
+Mar 30, 2018 09:12:00.52 [1364:4020:0330/091200.526:ERROR:ssl_client_socket_impl.cc(1147)] handshake failed; returned -1, SSL error code 1, net_error -100
+Mar 30, 2018 09:12:03.06 [1364:4020:0330/091203.065:ERROR:ssl_client_socket_impl.cc(1147)] handshake failed; returned -1, SSL error code 1, net_error -100
+Mar 30, 2018 09:12:11.20 [1364:4020:0330/091211.206:ERROR:ssl_client_socket_impl.cc(1147)] handshake failed; returned -1, SSL error code 1, net_error -100
+Mar 30, 2018 09:12:18.62 [1364:4020:0330/091218.627:ERROR:ssl_client_socket_impl.cc(1147)] handshake failed; returned -1, SSL error code 1, net_error -100
+Mar 30, 2018 09:12:22.08 [1364:4020:0330/091222.084:ERROR:connection_factory_impl.cc(379)] Failed to connect to MCS endpoint with error -175
+Mar 30, 2018 09:12:36.44 [1364:4020:0330/091236.439:ERROR:ssl_client_socket_impl.cc(1147)] handshake failed; returned -1, SSL error code 1, net_error -100
+Mar 30, 2018 09:16:54.06 [1364:4020:0330/091654.060:ERROR:ssl_client_socket_impl.cc(1147)] handshake failed; returned -1, SSL error code 1, net_error -100
+Mar 30, 2018 09:20:26.36 [1364:4020:0330/092026.360:ERROR:ssl_client_socket_impl.cc(1147)] handshake failed; returned -1, SSL error code 1, net_error -100
+Mar 30, 2018 09:20:26.70 [1364:4020:0330/092026.702:ERROR:ssl_client_socket_impl.cc(1147)] handshake failed; returned -1, SSL error code 1, net_error -100
+
+Apr 06, 2018 21:44:32.76 NEW SESSION
+Apr 06, 2018 21:44:32.77 [152:8492:0406/214432.650:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+
+Apr 21, 2018 08:33:58.08 NEW SESSION
+Apr 21, 2018 08:33:58.08 [10308:11044:0421/083357.548:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Apr 21, 2018 10:42:50.37 Unable to read VR Path Registry from C:\Users\QuangDuy\AppData\Local\openvr\openvrpaths.vrpath
+Apr 21, 2018 10:42:50.37 [10308:3384:0421/104250.372:ERROR:CONSOLE(6275)] "Uncaught (in promise) TypeError: Cannot read property 'oldRange' of undefined", source: chrome-devtools://devtools/bundled/shell.js (6275)
+
+Apr 23, 2018 08:17:26.80 NEW SESSION
+Apr 23, 2018 08:17:26.80 [7752:9496:0423/081726.782:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Apr 23, 2018 08:19:33.14 [2172:5160:0423/081933.145:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Apr 23, 2018 08:21:27.28 [9448:6316:0423/082127.285:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Apr 23, 2018 08:23:15.97 [212:6452:0423/082315.976:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Apr 23, 2018 08:23:59.89 [3748:9328:0423/082359.894:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Apr 23, 2018 08:25:44.59 [11148:2136:0423/082544.591:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Apr 23, 2018 08:26:45.87 Unable to read VR Path Registry from C:\Users\QuangDuy\AppData\Local\openvr\openvrpaths.vrpath
+Apr 23, 2018 08:26:51.88 [6916:852:0423/082651.880:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Apr 23, 2018 08:27:29.17 [4584:5296:0423/082729.179:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Apr 23, 2018 08:27:56.49 [11220:32:0423/082756.491:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+Apr 23, 2018 08:29:56.99 [7532:6160:0423/082956.995:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+
+May 04, 2018 08:03:06.30 NEW SESSION
+May 04, 2018 08:03:06.30 [7948:9056:0504/080305.685:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+May 04, 2018 08:07:02.95 Unable to read VR Path Registry from C:\Users\QuangDuy\AppData\Local\openvr\openvrpaths.vrpath
+May 04, 2018 08:07:02.95 [7948:10484:0504/080702.952:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:07:03.33 [7948:10484:0504/080703.335:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:07:10.82 [7948:10484:0504/080710.825:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:07:14.62 [7948:10484:0504/080714.624:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:07:17.98 [7948:10484:0504/080717.985:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:07:37.03 [7948:10484:0504/080737.030:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:07:43.11 [7948:10484:0504/080743.117:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:08:15.45 [7948:10484:0504/080815.459:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:08:47.90 [7948:10484:0504/080847.902:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:10:29.38 [7948:10484:0504/081029.382:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:13:55.91 [8708:2644:0504/081355.914:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+May 04, 2018 08:19:12.72 Unable to read VR Path Registry from C:\Users\QuangDuy\AppData\Local\openvr\openvrpaths.vrpath
+May 04, 2018 08:19:12.73 [8708:8692:0504/081912.729:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 04, 2018 08:19:35.80 [8708:8692:0504/081935.801:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 04, 2018 08:21:22.53 [8708:8692:0504/082122.532:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 04, 2018 08:23:31.29 [8708:8448:0504/082331.298:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:23:43.87 [8708:8448:0504/082343.875:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:24:05.95 [8708:8692:0504/082405.950:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 04, 2018 08:26:17.53 [8708:8448:0504/082617.535:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:26:49.65 [8708:8448:0504/082649.649:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 04, 2018 08:31:49.92 [8708:8448:0504/083149.923:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -101
+May 04, 2018 08:32:18.23 [8708:8448:0504/083218.234:ERROR:ssl_client_socket_impl.cc(1098)] handshake failed; returned -1, SSL error code 1, net_error -101

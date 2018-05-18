@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "141233917312",
+    "firebase_url": "https://onlylightproject.firebaseio.com",
+    "project_id": "onlylightproject",
+    "storage_bucket": "onlylightproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141233917312:android:48dd30f5eb819dca",
+        "android_client_info": {
+          "package_name": "com.quangduyv2017.login_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141233917312-4fvcvt7iqgj14n042urffs04b0sga5rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM7ZuEgJlMWConnKe5WncIUmCbD7jgqxU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

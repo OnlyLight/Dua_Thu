@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Bai8_JavaBasic.array&apos; to &apos;Array&apos;&#x0D;&#x0A;- Original project: &apos;TestJava&apos;&#x0D;&#x0A;- Original element: &apos;Bai8_JavaBasic.array&apos;&#x0D;&#x0A;- Renamed element: &apos;Bai8_JavaBasic.Array&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;array&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Bai8_JavaBasic{array.java[array" matchStrategy="1" name="Array" qualified="false" references="true" similarDeclarations="false" stamp="1494938831705" textual="false" version="1.0"/>
+</session>

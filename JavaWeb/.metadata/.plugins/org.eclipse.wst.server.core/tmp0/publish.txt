@@ -1,0 +1,7 @@
+#Tomcat publish data
+#Sun May 13 11:08:47 ICT 2018
+org.eclipse.jst.jee.server\:abc=E\:\\Downloads\\Zip\\apache-tomcat-7.0.84\\wtpwebapps\\abc
+org.eclipse.jst.jee.server\:WebDemo=E\:\\Downloads\\Zip\\apache-tomcat-7.0.84\\wtpwebapps\\WebDemo
+org.eclipse.jst.jee.server\:SimpleWebDemo=E\:\\Downloads\\Zip\\apache-tomcat-7.0.84\\wtpwebapps\\SimpleWebDemo
+org.eclipse.jst.jee.server\:MusicStore=E\:\\Downloads\\Zip\\apache-tomcat-7.0.84\\wtpwebapps\\MusicStore
+org.eclipse.jst.jee.server\:ConnectDB=E\:\\Downloads\\Zip\\apache-tomcat-7.0.84\\wtpwebapps\\ConnectDB

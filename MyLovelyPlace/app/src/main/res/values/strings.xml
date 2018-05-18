@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Lovely Place</string>
+    <string name="text_no_data">No data available</string>
+    <string name="text_place_name">Place Name</string>
+    <string name="text_place_address">Place Address</string>
+    <string name="text_place_description">Place Derscription</string>
+    <string name="text_loading">Loading &#8230;</string>
+    <string name="do_you_want_delete">Do you want delete</string>
+    <string name="text_warning">Warning</string>
+    <string name="alert_negati">No</string>
+    <string name="alert_positi">Yes</string>
+</resources>

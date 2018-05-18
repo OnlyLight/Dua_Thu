@@ -1,0 +1,24 @@
+----------------------LinnerLayout----------------------
+
+*MainActivity*
+
+btnAdd.setOn....
+
+.....
+	public void onClick(View view) {
+		Fragment fragmentA = new Fragment();
+
+		Bundle bundle = new Bundle();
+		bundle.putString("hoTen", "Nguyen Van A");
+		fragmentA.setArgument(bundle);
+
+		fragmentTransaction.add(R.id.myLinnerLayout, fragmentA);
+		fragmentTransaction.commit();
+	}
+
+*Fragment*
+
+Bundle bundle = getArgument();
+if(bundle != null) {
+	String ten = bundle.getString("hoTen");
+}

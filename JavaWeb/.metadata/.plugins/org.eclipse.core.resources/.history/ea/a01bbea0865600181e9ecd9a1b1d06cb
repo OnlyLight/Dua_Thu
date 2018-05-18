@@ -1,0 +1,29 @@
+package tqduy.musicstore.dao;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import tqduy.musicstore.entity.Product;
+import tqduy.musicstore.utils.HiberneteUtils;
+
+public class ProductImp implements ProductDAO {
+
+	public void addProduct(Product product) {
+		Session session = HiberneteUtils.getSessionFactory().getCurrentSession();
+		Transaction transaction = session.beginTransaction();
+		session.save(sinhVien);
+		transaction.commit();
+
+	}
+
+	public void editProduct(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void deleteProduct(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

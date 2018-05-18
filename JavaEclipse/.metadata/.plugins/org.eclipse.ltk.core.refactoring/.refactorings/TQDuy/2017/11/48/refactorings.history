@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ued.tranquangduy.bussiness&apos; to &apos;ued.tqduy.bussiness&apos;&#x0D;&#x0A;- Original project: &apos;KTHK1&apos;&#x0D;&#x0A;- Original element: &apos;KTHK1/src/ued.tranquangduy.bussiness&apos;&#x0D;&#x0A;- Renamed element: &apos;KTHK1/src/ued.tqduy.bussiness&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ued.tranquangduy.bussiness&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ued.tranquangduy.bussiness" name="ued.tqduy.bussiness" qualified="false" references="true" stamp="1511779431416" textual="false" version="1.0"/>
+</session>

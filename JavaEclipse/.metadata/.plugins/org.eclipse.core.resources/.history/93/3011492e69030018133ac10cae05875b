@@ -1,0 +1,7 @@
+package bai5_1;
+
+import bai4_4.Point;
+
+public class LineSub extends Point {
+
+}

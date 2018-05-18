@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Buoi6_JavaBasic.If_Else&apos; to &apos;CauLenhDieuKien_ReNhanh&apos;&#x0D;&#x0A;- Original project: &apos;TestJava&apos;&#x0D;&#x0A;- Original element: &apos;Buoi6_JavaBasic.If_Else&apos;&#x0D;&#x0A;- Renamed element: &apos;Buoi6_JavaBasic.CauLenhDieuKien_ReNhanh&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;If_Else&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Buoi6_JavaBasic{If_Else.java[If_Else" matchStrategy="1" name="CauLenhDieuKien_ReNhanh" qualified="false" references="true" similarDeclarations="false" stamp="1494331866136" textual="false" version="1.0"/>
+</session>

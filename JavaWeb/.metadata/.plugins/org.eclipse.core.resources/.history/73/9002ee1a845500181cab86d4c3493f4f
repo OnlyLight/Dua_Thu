@@ -1,0 +1,5 @@
+package tqduy.springmvcjpa.config;
+
+public class ApplicationContextConfig {
+
+}

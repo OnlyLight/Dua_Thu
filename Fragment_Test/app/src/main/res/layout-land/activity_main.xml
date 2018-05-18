@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+
+    <fragment
+        android:id="@+id/fragmentStudent"
+        android:name="com.quangduyv2017.fragment_test.FragmentStudent"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"/>
+
+    <fragment
+        android:id="@+id/fragmentStudentInfo"
+        android:name="com.quangduyv2017.fragment_test.FragmentStudentInfo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7" />
+</LinearLayout>

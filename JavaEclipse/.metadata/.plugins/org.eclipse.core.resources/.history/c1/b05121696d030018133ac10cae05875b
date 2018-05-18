@@ -1,0 +1,10 @@
+package Bai6_3;
+
+public class MovableRectangle extends MovablePoint {
+
+	public MovableRectangle(int x, int y, int xSpeed, int ySpeed) {
+		super(x, y, xSpeed, ySpeed);
+		// TODO Auto-generated constructor stub
+	}
+
+}

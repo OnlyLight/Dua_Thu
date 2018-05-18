@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CaiQuanQue</string>
+
+    <string-array name="array">
+        <item name="cai">Cai</item>
+        <item name="quan">Quan</item>
+        <item name="que">Que</item>
+    </string-array>
+</resources>

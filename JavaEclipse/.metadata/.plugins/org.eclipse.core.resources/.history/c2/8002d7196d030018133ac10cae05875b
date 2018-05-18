@@ -1,0 +1,5 @@
+package Bai6_3;
+
+public class MovableCircle extends MovablePoint {
+
+}

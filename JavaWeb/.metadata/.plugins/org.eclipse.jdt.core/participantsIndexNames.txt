@@ -1,0 +1,17 @@
+INDEX VERSION 1.130
+E:\Duy\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3388797922.index
+\JSLTDemo\src
+E:\Duy\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2932126468.index
+\BookStore\src
+E:\Duy\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\598712830.index
+\FlowerShop\src
+E:\Duy\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1743118098.index
+\SimpleWebDemo\src
+E:\Duy\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\353841146.index
+\BookStore\src
+E:\Duy\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\542257916.index
+\MusicStore\src\main\java
+E:\Duy\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2345010711.index
+\FlowerShop\src
+E:\Duy\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1864754992.index
+\SpringMVCJPA\src\main\java

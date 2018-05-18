@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quangduytangcocv2017.dday">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity"/>
+        <activity android:name=".LoiMuonNoi" />
+        <activity android:name=".NhatKy"/>
+        <activity android:name=".btn1" />
+        <activity android:name=".btn2"/>
+        <activity android:name=".btn3"/>
+        <activity android:name=".btn4"/>
+        <activity android:name=".btn5"/>
+        <activity android:name=".btn6"/>
+        <activity android:name=".btn7"/>
+        <activity android:name=".btn8"/>
+        <activity android:name=".btn9"/>
+        <activity android:name=".btn10"/>
+        <activity android:name=".btn11"/>
+        <activity android:name=".btn12"/>
+        <activity android:name=".btn13"/>
+        <activity android:name=".LoiCuoi"/>
+    </application>
+
+</manifest>

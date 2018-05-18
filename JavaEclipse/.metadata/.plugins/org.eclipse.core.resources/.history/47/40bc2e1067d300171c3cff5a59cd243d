@@ -1,0 +1,164 @@
+package ued.tqduy.view;
+
+import java.awt.EventQueue;
+
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+import ued.tqduy.bussiness.DButilt;
+
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
+import java.awt.Font;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.swing.JTextField;
+import javax.swing.border.BevelBorder;
+import javax.swing.JButton;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+public class UpdateInfo extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField txtID;
+	private JTextField txtName;
+	private JTextField txtClass;
+	private JTextField txtAdd;
+	private JTextField txtPass;
+	private JLabel lbID;
+	private JLabel lbName;
+	private JLabel lbClass;
+	private JLabel lbAddress;
+	private JLabel lbPass;
+	private JLabel lbIcon;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					UpdateInfo frame = new UpdateInfo();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public UpdateInfo() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 341);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("ADD INFOMATION USER");
+		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 20));
+		lblNewLabel.setBounds(90, 11, 254, 40);
+		contentPane.add(lblNewLabel);
+		
+		lbID = new JLabel("ID");
+		lbID.setBounds(106, 76, 46, 14);
+		contentPane.add(lbID);
+		
+		lbName = new JLabel("Name");
+		lbName.setBounds(106, 106, 46, 14);
+		contentPane.add(lbName);
+		
+		lbClass = new JLabel("Class");
+		lbClass.setBounds(106, 141, 46, 14);
+		contentPane.add(lbClass);
+		
+		lbAddress = new JLabel("Address");
+		lbAddress.setBounds(106, 177, 57, 14);
+		contentPane.add(lbAddress);
+		
+		lbPass = new JLabel("Pass");
+		lbPass.setBounds(106, 213, 46, 14);
+		contentPane.add(lbPass);
+		
+		txtID = new JTextField();
+		txtID.setColumns(10);
+		txtID.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		txtID.setBounds(182, 70, 223, 20);
+		contentPane.add(txtID);
+		
+		txtName = new JTextField();
+		txtName.setColumns(10);
+		txtName.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		txtName.setBounds(182, 103, 223, 20);
+		contentPane.add(txtName);
+		
+		txtClass = new JTextField();
+		txtClass.setColumns(10);
+		txtClass.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		txtClass.setBounds(182, 138, 223, 20);
+		contentPane.add(txtClass);
+		
+		txtAdd = new JTextField();
+		txtAdd.setColumns(10);
+		txtAdd.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		txtAdd.setBounds(182, 174, 223, 20);
+		contentPane.add(txtAdd);
+		
+		txtPass = new JTextField();
+		txtPass.setColumns(10);
+		txtPass.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		txtPass.setBounds(182, 210, 223, 20);
+		contentPane.add(txtPass);
+		
+		lbIcon = new JLabel("New label");
+		lbIcon.setBounds(10, 76, 86, 71);
+		contentPane.add(lbIcon);
+		
+		JButton btnAdd = new JButton("Add Data");
+		btnAdd.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+				btnAddClicked();
+			}
+		});
+		btnAdd.setBounds(90, 257, 89, 23);
+		contentPane.add(btnAdd);
+		
+		JButton btnOut = new JButton("Exit");
+		btnOut.setBounds(255, 257, 89, 23);
+		contentPane.add(btnOut);
+		
+		setAva();
+	}
+	
+	private void setAva() {
+		try {
+			BufferedImage image = ImageIO.read(new File("E:\\Duy\\JavaEclipse\\QuangDuy\\img\\update-icon.png"));
+			ImageIcon icon = new ImageIcon(image.getScaledInstance(86, 71, image.SCALE_SMOOTH));
+			lbIcon.setIcon(icon);
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+	}
+	
+	private void btnAddClicked() {
+		if(txtID.getText().toString().isEmpty() || txtName.getText().toString().isEmpty() || txtClass.getText().toString().isEmpty() || txtAdd.getText().toString().isEmpty() || txtPass.getText().toString().isEmpty()) {
+			JOptionPane.showMessageDialog(null, "Please enter full data !!");
+		} else {
+			int click = JOptionPane.showConfirmDialog(null, "Do you want insert ?", "INSERT", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
+			if (click == JOptionPane.YES_OPTION)
+				DButilt.insert(txtID.getText().toString(), txtName.getText().toString(), txtClass.getText().toString(), txtAdd.getText().toString(), txtPass.getText().toString());
+		}
+	}
+}

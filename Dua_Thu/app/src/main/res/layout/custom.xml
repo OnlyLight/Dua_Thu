@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hướng dẫn chơi"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Đặt cược 1 trong 3 nhân vật. Chọn Play, nếu nhân vật bạn chọn Win thì bạn được cộng 10đ, nếu sai bạn bị trừ 5đ.. GOOD LUCK !!"/>
+
+</LinearLayout>

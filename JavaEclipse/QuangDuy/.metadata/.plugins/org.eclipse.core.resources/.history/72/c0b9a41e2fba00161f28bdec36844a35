@@ -1,0 +1,107 @@
+import java.util.Scanner;
+
+public class BaiTapJava1 {
+
+	public static void main(String[] args) {
+		
+//		// Bai 1
+//		int canh1, canh2, canh3;
+//		Scanner b = new Scanner(System.in);
+//		
+//		System.out.println("Nhap canh: ");
+//		canh1 = b.nextInt();
+//		
+//		System.out.println("Nhap canh: ");
+//		canh2 = b.nextInt();
+//		
+//		System.out.println("Nhap canh: ");
+//		canh3 = b.nextInt();
+//		
+//		int TheTich;
+//		TheTich = canh1 * canh2 * canh3;
+//		
+//		System.out.println("The tich cua hinh hop chu nhat la: " +TheTich);
+//		
+//		// Bai 2
+//		//Scanner a = new Scanner(System.in);
+//		System.out.println("Nhap don gia san pham: ");
+//		float dongia = b.nextFloat();
+//		
+//		System.out.println("Nhap so luong: ");
+//		int soluong = b.nextInt();
+//		
+//		float TienPhaiTra = (dongia * soluong * 90) / 100;
+//		
+//		System.out.printf("So tien khach phai tra: %f", TienPhaiTra);
+//		
+//		//Bai 4
+//		System.out.print("Nhap vao thang: ");
+//		int thang = b.nextInt();
+//		
+//		switch(thang)
+//		{
+//			case 1: case 2: case 3:
+//			{
+//				System.out.println("XUAN");
+//			}
+//			case 4: case 5: case 6:
+//			{
+//				System.out.println("HA");
+//			}
+//			case 7: case 8: case 9:
+//			{
+//				System.out.println("THU");
+//			}
+//			case 10: case 11: case 12:
+//			{
+//				System.out.println("DONG");
+//			}
+//		}
+//		// Bai 3
+//		System.out.print("Nhap vao canh: ");
+//		int canh = b.nextInt();
+//		
+//		System.out.print("Nhap vao duong cao: ");
+//		int duongcao = b.nextInt();
+//		
+//		int TinhDienTich = canh * duongcao;
+//		System.out.print("Dien Tich hinh binh hanh: " +TinhDienTich);
+//		
+//		// Bai 5
+//		int n;
+//		int dem = 0;
+//		do{
+//			System.out.print("Nhap vao so nguyen duong: ");
+//			n = b.nextInt();
+//			
+//			if(n <= 0)
+//			{
+//				System.out.println("Xin Nhap lai !!");
+//			}
+//		}while(n <= 0);
+//		for(int i  = 1; i <= n; i++)
+//		{
+//			if(i % 3 == 0)
+//			{
+//				dem++;
+//			}
+//		}
+//		System.out.printf("Co %d so chia het cho 3", dem);
+//		
+		// Bai 6
+		for(int i = 1; i <= 100; i++)
+		{
+			//int demso = 0;
+			if(i % 5 == 0)
+			{
+			
+//				if(demso == 11)
+//				{
+//					break;
+//				}
+				System.out.print(" " +i);
+			}
+		}
+	}
+
+}

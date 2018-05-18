@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TabHost</string>
+    <string name="title_activity_tab1">Tab1</string>
+    <string name="tab1">Tab1</string>
+    <string name="title_activity_tab2">Tab2</string>
+    <string name="tab2">Tab1</string>
+    <string name="title_activity_tab3">Tab3</string>
+    <string name="tab3">Tab1</string>
+</resources>

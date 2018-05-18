@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+public class text {
+
+	public static void main(String[] args) {
+		
+//		int nam, ngay, thang;
+//		Scanner b = new Scanner(System.in);
+//		
+//		System.out.println("Nhap nam: ");
+//		nam = b.nextInt();
+//		
+//		System.out.println("Nhap thang: ");
+//		thang = b.nextInt();
+//		
+////		System.out.println("Nhap ngay: ");
+////		ngay = b.nextInt();
+////		
+//		if((nam % 4 == 0 && nam % 100 != 0) || (nam % 400 == 0))
+//		{
+//			switch(thang){
+//			case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+//			{
+//				System.out.println("Co 31 Ngay");
+//			}
+//			case 4: case 6: case 9: case 11:
+//			{
+//				System.out.println("Co 30 ngay");
+//			}
+//			default:
+//			{
+//				System.out.println("Co 29 ngay");
+//			}
+//		}
+//		}
+//			else
+//			{
+//				switch(thang){
+//				case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+//				{
+//					System.out.println("Co 31 Ngay");
+//				}
+//				case 4: case 6: case 9: case 11:
+//				{
+//					System.out.println("Co 30 ngay");
+//				}
+//				default:
+//				{
+//					System.out.println("Co 28 ngay");
+//				}
+//			}
+//			}
+		
+		for(int i = 1; i < 6; i++)
+		{
+			if(i == 1) System.out.println("*");
+			if(i == 2) System.out.println("* *");
+			if(i == 3) System.out.println("* * *");
+			if(i == 4) System.out.println("* * * * *");
+			if(i == 5) System.out.println("* * * * * *");
+			
+		}
+		
+		
+	}
+
+}

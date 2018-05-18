@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.admin.mylovelyplace.activity.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/imgDetailAct_ImagePlace"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/no_image"/>
+
+        <ImageButton
+            android:id="@+id/ibDetailAct_ImageDelete"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/delete_icon"
+            android:background="?android:selectableItemBackground"/>
+
+        <ImageButton
+            android:id="@+id/ibDetailAct_ImageEdit"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/edit_icon"
+            android:background="?android:selectableItemBackground"/>
+
+        <ImageButton
+            android:id="@+id/ibDetailAct_ImageDescription"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/direction_icon"
+            android:background="?android:selectableItemBackground"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtvDetailAct_PlaceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_place_name"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/edtDetailAct_PlaceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/txtvDetailAct_PlaceAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_place_address"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtDetailAct_PlaceAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/txtvDetailAct_PlaceDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_place_description"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edtDetailAct_PlaceDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none"
+        android:enabled="false"/>
+</LinearLayout>

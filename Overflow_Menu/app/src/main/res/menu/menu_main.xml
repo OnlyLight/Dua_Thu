@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.quangduyv2017.overflow_menu.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_red"
+            android:orderInCategory="1"
+            android:title="@string/action_red"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_blue"
+            android:orderInCategory="1"
+            android:title="@string/action_blue"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_grean"
+            android:orderInCategory="1"
+            android:title="@string/action_green"
+            app:showAsAction="never" />
+    </group>
+</menu>

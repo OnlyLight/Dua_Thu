@@ -1,0 +1,16 @@
+package bai7_1;
+
+import bai1_7.Date;
+
+public class Visit {
+	private Customer customer;
+	private Date date;
+	private double serviceExpense;
+	private double prouductExpense;
+	public Visit(String name, Date date) {
+		super();
+		this.date = date;
+		customer.setName(name);
+	}
+	
+}

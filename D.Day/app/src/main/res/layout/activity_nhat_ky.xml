@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nhat_ky"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.quangduytangcocv2017.dday.NhatKy">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="16dp"
+       android:textStyle="bold"
+       android:textSize="15dp"
+       android:textColor="#212121"
+       android:id="@+id/txtvLoiNhanNhatKy"/>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/txtvLoiNhanNhatKy2"
+     android:textStyle="bold"
+     android:textSize="15dp"
+     android:textColor="#212121"
+     android:layout_gravity="center"/>
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 16/09/2016"
+      android:layout_marginTop="30dp"
+      android:background="#D50000"
+      android:textColor="#FFFFFF"
+      android:id="@+id/btn1"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 08/10/2016"
+      android:id="@+id/btn2"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 22/09/2016"
+      android:background="#D50000"
+      android:textColor="#FFFFFF"
+      android:id="@+id/btn3" />
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 27/09/2016"
+      android:id="@+id/btn4"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 29/9/2016"
+      android:background="#D50000"
+      android:textColor="#FFFFFF"
+      android:id="@+id/btn5"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 05/11/2016"
+      android:id="@+id/btn6"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 02/10/2016"
+      android:background="#D50000"
+      android:textColor="#FFFFFF"
+      android:id="@+id/btn7"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 06/10/2016"
+      android:id="@+id/btn8"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 11/11/2016"
+      android:background="#D50000"
+      android:textColor="#FFFFFF"
+      android:id="@+id/btn9"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 15/12/2016"
+      android:id="@+id/btn10"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 21/12/2016"
+      android:background="#D50000"
+      android:textColor="#FFFFFF"
+      android:id="@+id/btn11"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 03/01/2017"
+      android:id="@+id/btn12"/>
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Ngày 03/02/2017"
+      android:background="#D50000"
+      android:textColor="#FFFFFF"
+      android:id="@+id/btn13"/>
+
+  </LinearLayout>
+ </ScrollView>
+</LinearLayout>

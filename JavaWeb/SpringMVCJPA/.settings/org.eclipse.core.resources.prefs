@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/main/java/tqduy/springmvcjpa/config/ApplicationContextConfig.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/config/WebMvcConfig.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/config/WebSecurityConfig.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/controller/AdminController.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/controller/MainController.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/dao/impl/OrderDAOImpl.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/dao/impl/ProductDAOImpl.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/model/OrderDetailInfo.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/model/OrderInfo.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/model/PaginationResult.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/model/ProductInfo.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/validator/CustomerInfoValidator.java=UTF-8
+encoding//src/main/java/tqduy/springmvcjpa/validator/ProductInfoValidator.java=UTF-8

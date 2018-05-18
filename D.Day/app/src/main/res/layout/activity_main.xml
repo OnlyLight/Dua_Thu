@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.quangduytangcocv2017.dday.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đây là món quà ổi đã dồn"
+        android:textSize="20dp"
+        android:textColor="#E53935"
+        android:layout_marginTop="350dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hết tâm trí để làm xin Cóc hay xem"
+        android:textSize="20dp"
+        android:textColor="#E53935"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cupid"
+        android:layout_weight="0.1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/imvCupid"/>
+</LinearLayout>

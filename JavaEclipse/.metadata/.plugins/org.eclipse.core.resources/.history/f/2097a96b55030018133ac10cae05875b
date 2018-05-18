@@ -1,0 +1,5 @@
+package bai4_3;
+
+public class Point3D extends Point2D {
+
+}

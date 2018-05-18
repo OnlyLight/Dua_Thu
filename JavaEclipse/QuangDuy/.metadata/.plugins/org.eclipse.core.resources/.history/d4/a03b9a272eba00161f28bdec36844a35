@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class BaiTapJava1 {
+
+	public static void main(String[] args) {
+		
+		// Bai 1
+		int canh1, canh2, canh3;
+		Scanner b = new Scanner(System.in);
+		
+//		System.out.println("Nhap canh: ");
+//		canh1 = b.nextInt();
+//		
+//		System.out.println("Nhap canh: ");
+//		canh2 = b.nextInt();
+//		
+//		System.out.println("Nhap canh: ");
+//		canh3 = b.nextInt();
+//		
+//		int TheTich;
+//		TheTich = canh1 * canh2 * canh3;
+//		
+//		System.out.println("The tich cua hinh hop chu nhat la: " +TheTich);
+//		
+		// Bai 2
+		//Scanner a = new Scanner(System.in);
+		System.out.println("Nhap don gia san pham: ");
+		float dongia = b.nextFloat();
+		
+		System.out.println("Nhap so luong: ");
+		int soluong = b.nextInt();
+		
+		float TienPhaiTra = (dongia * soluong * 90) / 100;
+		
+		System.out.printf("So tien khach phai tra: %f", TienPhaiTra);
+		
+		//Bai 3
+		
+	}
+
+}

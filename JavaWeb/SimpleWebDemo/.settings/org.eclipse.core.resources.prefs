@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//WebContent/product.jsp=UTF-8
+encoding//src/tqduy/simplewebdemo/conn/SQLServerConnect.java=UTF-8
+encoding//src/tqduy/simplewebdemo/filter/JDBCFilter.java=UTF-8
+encoding//src/tqduy/simplewebdemo/infodetail/ServletUtils.java=UTF-8
+encoding//src/tqduy/simplewebdemo/servlet/ProductListServlet.java=UTF-8

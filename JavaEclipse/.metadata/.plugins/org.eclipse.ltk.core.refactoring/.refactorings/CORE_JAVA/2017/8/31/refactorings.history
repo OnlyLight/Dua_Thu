@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;tong&apos; in &apos;PracticeTest.Caluculate.main(...)&apos; to &apos;sum&apos;&#x0D;&#x0A;- Original project: &apos;CORE_JAVA&apos;&#x0D;&#x0A;- Original element: &apos;PracticeTest.Caluculate.main(String[]).tong&apos;&#x0D;&#x0A;- Renamed element: &apos;tong&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;tong&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;PracticeTest{Caluculate.java[Caluculate~main~\[QString;@tong!97!109!101!104!I!0!false" name="sum" references="true" stamp="1501850988249" version="1.0"/>
+</session>
