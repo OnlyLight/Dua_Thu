@@ -86,6 +86,7 @@ public class BookList extends HttpServlet {
 			throws SQLException, IOException, ServletException {
 		String userName = request.getParameter("username");
 		String passWord = request.getParameter("password");
+		System.out.println("UserName request: " + userName + " - PassWord Requeset: " + passWord);
 		User user = new User();
 		user.setUserName(userName);
 		user.setPassWord(passWord);

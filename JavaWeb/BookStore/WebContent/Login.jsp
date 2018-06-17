@@ -28,14 +28,6 @@
 	</style>
 </head>
 <body>
-	<!--<form style="text-align: center" action="login" method="post">
-		<label>User Name:</label> 
-		<input type="text" placeholder="Insert UserName" name="username"/><br><br>
-		<label>PassWord:</label>
-		<input type="password" placeholder="Insert Password" name="password"/><br><br>
-			<input type="submit" value="OK">
-	</form>-->
-	
 	<div class="container">
         <form class="center" action="login" method="post">
             <figure>

@@ -53,6 +53,7 @@ public class ProductServlet extends HttpServlet {
 		System.out.println("Page got: " +pages);
 		
 		int total = ProductDAO.countProducts();
+		System.out.println("Total: " + total);
 	    
 	    if (total <= 4) {
 	        firstResult = 0; 
@@ -69,8 +70,13 @@ public class ProductServlet extends HttpServlet {
 	    }
 	    
 	    List<Integer> arrTotal = new ArrayList<>();
+	    arrTotal.add(1);
 	    for(int i = 1; i <= total/4; ++i) {
-	    	arrTotal.add(i);
+	    	if(total % 4 == 0) {
+	    		arrTotal.add(i);
+	    	} else {
+	    		arrTotal.add(i+1);
+	    	}
 	    }
 	    
 	    List<Product> list = ProductDAO.getListProductByPages(firstResult, maxResult);

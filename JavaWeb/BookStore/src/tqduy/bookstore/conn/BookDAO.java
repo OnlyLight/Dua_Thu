@@ -28,7 +28,6 @@ public class BookDAO {
         try {
         	Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             con = DriverManager.getConnection(url, BookDAO.USER_NAME, BookDAO.PASSWORD);
-            JOptionPane.showMessageDialog(null, "Connect Success !!");
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, ex);
         }
@@ -102,6 +101,7 @@ public class BookDAO {
 		while (resultSet.next()) {
 			String userName = resultSet.getString("UserName");
 			String passWord = resultSet.getString("PassWord");
+			System.out.println("UserName: " + userName + " - PassWord: " + passWord);
 			
 			if(user.getUserName().trim().equals(userName) && user.getPassWord().trim().equals(passWord)) {
 				return true;

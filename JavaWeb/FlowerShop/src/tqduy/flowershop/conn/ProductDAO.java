@@ -28,7 +28,6 @@ public class ProductDAO {
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			con = DriverManager.getConnection(url, ProductDAO.USER_NAME, ProductDAO.PASSWORD);
-			// JOptionPane.showMessageDialog(null, "Connect Success !!");
 		} catch (Exception ex) {
 			JOptionPane.showMessageDialog(null, ex);
 		}

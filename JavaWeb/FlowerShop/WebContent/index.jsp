@@ -54,8 +54,9 @@
 		                            </div>
 		                            <!--End Product 1-->
 		                    </c:forEach>
-                            
-                            <!--Pagination-->
+                        </div>
+                        <div class="row">
+                        	<!--Pagination-->
                             <ul class="pagination pull-right" style="margin-right: 4%">
                             	<c:forEach var="total" items="${ total }">
                             		<li><a href="/FlowerShop/product?pages=<c:out value='${ total }'/>"><c:out value='${ total }'/></a></li>
@@ -75,7 +76,7 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="thumbnail adv-item">
-                                    <img src="images/flower-adv.jpg" alt="Flower adv 1">
+                                    <img src="images/flower-adv-2.jpg" alt="Flower adv 2">
                                 </div>
                             </div>
                         </div>
